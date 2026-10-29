@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Илья Астахов</title>
+</head>
+<body>
+    <div class="home-page-personaly">
+        <header class="header-page">
+            <p class="name">Илья Астахов</p>
+            <div class="header-line">
+                <a class="home-page-button" href="index.html">Главная</a>
+                <a class="about-me-button" href="about%20me.html">Обо мне</a>
+                <a class="projects-button" href="project.html">Проекты</a>
+                <a class="services-button" href="services.html">Услуги</a>
+                <a class="contacts-button" href="contact.html">Контакты</a>
+            </div>
+            <button class="call-button" type="button" data-contact-open>Связаться</button>
+        </header>
+        <dialog class="contact-dialog" aria-labelledby="contact-dialog-title">
+            <section class="contact-card">
+                <button class="contact-dialog-close" type="button" aria-label="Закрыть" data-contact-close>&times;</button>
+                <h1 id="contact-dialog-title">Связаться со мной</h1>
+                <div class="contact-list">
+                    <a href="https://github.com/retos56" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span>github.com/retos56</span></a>
+                    <a href="mailto:moderlandywork@gmail.com"><span>Почта</span><span>moderlandywork@gmail.com</span></a>
+                    <a href="tel:+79194474332"><span>Телефон</span><span>+7 (919) 447-43-32</span></a>
+                    <a href="https://t.me/meowboychi" target="_blank" rel="noopener noreferrer"><span>Telegram</span><span>@meowboychi</span></a>
+                </div>
+            </section>
+        </dialog>
+        <div class="about-me-page-content">
+                <div class="about-me-content-block">
+                    <p class="about-me-content-name">1 проект. Дискорд-бот.</p>
+                    <p class="about-me-content-description">Бот на py-cord автоматически создаёт приватные голосовые комнаты и удаляет их, когда они пустеют. Flask API позволяет управлять настройками, которые сохраняются в JSON.</p>
+                    <a class="call-button project-link" href="https://github.com/retos56/channel-bot.git" target="_blank" rel="noopener noreferrer">Перейти к проекту</a>
+                </div>
+                <div class="about-me-content-block">
+                    <p class="about-me-content-name">2 проект. Telegram-бот для бронирования домика.</p>
+                    <p class="about-me-content-description">Бот помогает оформить заявку на отдых: выбрать мероприятие, дату и длительность проживания, указать число гостей, пожелания и телефон. Перед бронированием он проверяет доступность дат и предлагает ближайшую свободную дату, если выбранный период занят. Данные заявок хранятся в SQLite. В админ-панели можно просматривать и удалять бронирования, а также вручную занимать даты.</p>
+                    <a class="call-button project-link" href="https://github.com/retos56/tg-bot.git" target="_blank" rel="noopener noreferrer">Перейти к проекту</a>
+                </div>
+                <div class="about-me-content-block">
+                    <p class="about-me-content-name">1 проект. Веб-сайт на тему тур по москве. </p>
+                    <p class="about-me-content-description">Сайт о турах по Москве: знакомит с городом и его достопримечательностями, помогает узнать о маршрутах и выбрать места для прогулки.</p>
+                    <a class="call-button project-link" href="https://github.com/retos56/MSK-tour.git" target="_blank" rel="noopener noreferrer">Перейти к проекту</a>
+                </div>
+        </div>
+        <footer class="footer-page">
+            <p class="footer-page-text">© 2026 Илья Астахов. Все права защищены.</p>
+        </footer>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
